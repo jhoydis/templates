@@ -1,0 +1,32 @@
+\documentclass[conference]{IEEEtran}
+\input{../packages}
+\input{../macros}
+\input{../abbreviations}
+
+\begin{document}
+
+\title{My great paper}
+\author{
+\IEEEauthorblockN{Jakob Hoydis}
+	\IEEEauthorblockA{
+		Nokia Bell Labs, Paris-Saclay, 91620 Nozay, France\\
+		jakob.hoydis@nokia-bell-labs.com
+	}
+}
+\maketitle
+
+\input{sections/abstract}
+\glsresetall
+
+\input{sections/introduction}
+
+
+\input{sections/conclusion}
+
+
+\bibliographystyle{IEEEtran}
+\bibliography{IEEEabrv,../bib_abrv,bibliography}
+
+% Uncomment to equalize the columns of the last pager
+%\pagebreak
+\end{document} 
